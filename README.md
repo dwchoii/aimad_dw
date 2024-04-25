@@ -12,5 +12,7 @@
 이를 immutable이라 한다.
 
 - Example 1-4
-: reference data의 할당, var이 직접 value가 아닌 address를 가르키며 데이터는 address에 대한 메모리를 할당받는 것을 설명해주고 있음
+: reference data의 할당. var이 직접 data가 아닌 address를 가르키며 data는 address에 대한 메모리를 할당받는 것을 설명해주고 있음
 
+- Example 1-5
+: reference data의 재할당. 기존에 있던 data는 삭제되지 않기 때문에, var의 data를 바꿀 경우 새로운 data를 만든 후에 var가 그 주소를 가르키도록 한다.
