@@ -125,7 +125,10 @@
   (3) var c = function d() {}  //기명함수표현식
 
 - Example 2-9
-: 
+: 함수 선언문과 함수 표현식. 함수 선언문 sum과 함수 표현식 multiply가 있다.
+
+- Example 2-10
+:
 
 
 
