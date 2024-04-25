@@ -98,7 +98,10 @@
   function a () {} ; function에 대한 declaration
 
 -Example 2-3
-:
+: 매개변수와 변수에 대한 Hoisting 2.
+  매개변수가 변수의 선언 및 할당과 같다고 여겨져 함수 안에서 매개변수가 선언되었다. 
+
+  
 
 
 
