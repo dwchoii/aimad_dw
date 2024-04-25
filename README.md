@@ -146,6 +146,11 @@
 - Example 2-14
 : 스코프 체인 example 1.
 
+- Example 2-15
+: 스코프 체인 example 2.
+
+- Example 2-16
+: 스코프 체인 example 3.
 
 
 
