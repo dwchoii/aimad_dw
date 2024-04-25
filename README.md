@@ -144,7 +144,7 @@
   Call stack에 global, outer, inner 함수 순으로 쌓여 inner부터 실행되는데, 모든 context는 내부/외부 환경이 있어 각 함수의 외부 환경이 '식별자의 유효범위'를 차례대로 검색해나간다.
 
 - Example 2-14
-: 
+: 스코프 체인 example 1.
 
 
 
