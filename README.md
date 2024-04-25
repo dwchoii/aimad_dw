@@ -16,3 +16,6 @@
 
 - Example 1-5
 : reference data의 재할당. 기존에 있던 data는 삭제되지 않기 때문에, var의 data를 바꿀 경우 새로운 data를 만든 후에 var가 그 주소를 가르키도록 한다.
+
+- Example 1-6
+: 중첩된 reference data의 프로퍼티 할당. array에 index 각각의 indentifier를 할당한다.
