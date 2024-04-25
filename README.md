@@ -47,7 +47,11 @@
 - Example 1-15
 : Example 1-14에서 user.urls 프로퍼티를 불변 객체로 만듦. copy0bject를 통해 urls까지 따로 복사하여 불변 객체를 만들고 있다.
 
+- Example 1-16
+: 객체의 깊은 복사를 수행함. target의 property까지 복사하여 target과 result가 가르키는 것이 다르도록 함.
 
+- Example 1-17
+: 
 
 
 
