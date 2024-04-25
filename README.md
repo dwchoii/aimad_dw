@@ -119,6 +119,12 @@
   Example 2-5,6 과 같이 Var b가 두 번 선언되지 않고 한 번만 선언되어 function을 가르키게 된다.
 
 - Example 2-8
+: 함수를 정의하는 방식에 대한 설명.
+  (1) function a() {}          //함수선언문
+  (2) var b = function () {}   //익명함수표현식
+  (3) var c = function d() {}  //기명함수표현식
+
+- Example 2-9
 : 
 
 
