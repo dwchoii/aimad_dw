@@ -62,6 +62,16 @@
 (2) 존재하지 않는 프로퍼티에 접근한 경우
 (3) 반환 값이 없는 경우
 
+- Example 1-20
+: array data를 사용했을때 undefined가 나타나는 경우를 설명. arr3에서 나온 결과 [undefined]는 error의 undefined가 아니라 data 이다. 배열에 들어간 data가 없을 경우 empty로 나타남.
+
+- Example 1-21
+:
+
+
+
+
+
 
 
 
