@@ -128,7 +128,12 @@
 : 함수 선언문과 함수 표현식. 함수 선언문 sum과 함수 표현식 multiply가 있다.
 
 - Example 2-10
-:
+: 함수 선언문과 함수 표현식 2. 함수 선언문은 전체를 Hoisting하고 함수 표현식은 변수 선언부만 Hoisting한다.
+  multiply function 에서 선언부만 호이스팅되어 찾을 수 없기 때문에 TypeError: multiply is not a function이 출력된다.
+  변수의 할당부는 제자리에 남겨둠
+
+- Example 2-11
+: 
 
 
 
