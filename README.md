@@ -140,9 +140,11 @@
 : Example 2-11의 문제로 인해 함수 표현식이 상대적으로 안전하다는 것을 보여줌.
 
 - Example 2-13
-:
+: 스코프 체인이란 outerEnvironmentReference가 현재 호출된 함수가 선언될 당시의 LexicalEnvironment를 참조하는 것을 의미한다.
+  Call stack에 global, outer, inner 함수 순으로 쌓여 inner부터 실행되는데, 모든 context는 내부/외부 환경이 있어 각 함수의 외부 환경이 '식별자의 유효범위'를 차례대로 검색해나간다.
 
-
+- Example 2-14
+: 
 
 
 
