@@ -114,6 +114,11 @@
   선언 부분이 위에서 처리됨. Example 2-5와 결과는 같다.
 
 - Example 2-7
+: 함수 선언의 Hoisting 3.
+  var b = function b() {}; 으로 바뀌었다.
+  Example 2-5,6 과 같이 Var b가 두 번 선언되지 않고 한 번만 선언되어 function을 가르키게 된다.
+
+- Example 2-8
 : 
 
 
