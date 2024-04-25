@@ -36,7 +36,8 @@
 : Example 1-10의 문제점의 해결 방법이다. 새로운 object를 만들고, 그 주소를 return 하여 두 객체가 서로 다른 객체를 보도록 만들었다.
 
 - Example 1-12
-: 기존 정보를 복사하여 새로운 객체를 반환하는 것을 얕은 함수라 부른다. result가 target의 정보를 복사하고 있다.
+: 기존 정보를 복사하여 새로운 객체를 반환하는 것을 얕은 함수라 부른다.
+  result가 target의 정보를 복사하고 있다.
 
 - Example 1-13
 : copy0bject 기능을 이용하여 객체를 복사하는 방법. for loop 없이 함수를 통해 복사가 가능하다.
@@ -45,7 +46,8 @@
 : 중첩된 객체에 대한 얕은 복사. user2가 user1의 정보를 복사하고 있다.
 
 - Example 1-15
-: Example 1-14에서 user.urls 프로퍼티를 불변 객체로 만듦. copy0bject를 통해 urls까지 따로 복사하여 불변 객체를 만들고 있다.
+: Example 1-14에서 user.urls 프로퍼티를 불변 객체로 만듦.
+  copy0bject를 통해 urls까지 따로 복사하여 불변 객체를 만들고 있다.
 
 - Example 1-16
 : 객체의 깊은 복사를 수행함. target의 property까지 복사하여 target과 result가 가르키는 것이 다르도록 함.
@@ -63,18 +65,20 @@
 (3) 반환 값이 없는 경우
 
 - Example 1-20
-: array data를 사용했을때 undefined가 나타나는 경우를 설명. arr3에서 나온 결과 [undefined]는 error의 undefined가 아니라 data 이다. 배열에 들어간 data가 없을 경우 empty로 나타남.
-(비어있음을 나타내고 싶을 때는 undefined가 아닌 null을 사용해야 한다.)
+: array data를 사용했을때 undefined가 나타나는 경우를 설명. arr3에서 나온 결과 [undefined]는 error의 undefined가 아니라 data 이다.
+  배열에 들어간 data가 없을 경우 empty로 나타남.
+  (비어있음을 나타내고 싶을 때는 undefined가 아닌 null을 사용해야 한다.)
 
 - Example 1-21
 : 정의된 arr1 arr2 array가 forEach, map, filter, reduce 함수를 사용했을 때의 결과를 나타낸다.
-1. forEach : Array에 있는 모든 element에 대해 for loop를 진행함 (v:array[i], i:index)
-2. map : 새로운 array element 생성 (new_array[i] <- v + i)
-3. filter : 조건에 맞지 않는 element 제거, 새로운 array 생성
-4. reduce : transform (p <- p + array[i] + i)
+(1) forEach : Array에 있는 모든 element에 대해 for loop를 진행함 (v:array[i], i:index)
+(2) map : 새로운 array element 생성 (new_array[i] <- v + i)
+(3) filter : 조건에 맞지 않는 element 제거, 새로운 array 생성
+(4) reduce : transform (p <- p + array[i] + i)
 
 - Example 1-22
-: 
+: undefined와 null을 비교함. null의 type은 object이기 때문에 사용에 주의해야 함.
+  '==' '==='의 차이는 후자의 경우 더 엄격하게 구분한다. 
 
 
 
