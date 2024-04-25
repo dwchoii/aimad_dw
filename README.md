@@ -87,3 +87,33 @@
 
 
 
+# Chapter 2
+-Example 2-1
+: 실행 컨텍스트와 콜 스택. 
+  global E.context, outer E.context, inner E.context 순으로 stack에 쌓여 inner 부터 global까지 하나씩 out되는 과정이다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
