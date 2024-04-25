@@ -19,3 +19,7 @@
 
 - Example 1-6
 : 중첩된 reference data의 프로퍼티 할당. array에 index 각각의 indentifier를 할당한다.
+
+- Example 1-7
+: 변수 복사. 하나의 변수(b)가 값을 가진 변수(a)를 copy할 경우 변수(a)가 가르키는 주소를 동일하게 가르킨다.
+
