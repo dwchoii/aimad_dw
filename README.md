@@ -106,9 +106,11 @@
   var x; 3줄이 순서대로 수집 대상 1,2,3의 변수 선언 부분을 뜻한다. 
 
 - Example 2-5
-:
+: 함수 선언의 Hoisting.
+  선언 부분 처리 후에 data가 할당되어 첫번째 console.log(b)는 function b() {}, 두번째와 세번째는 bbb를 나타낸다.
 
-
+- Example 2-6
+: 
 
 
 
