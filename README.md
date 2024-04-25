@@ -110,8 +110,11 @@
   선언 부분 처리 후에 data가 할당되어 첫번째 console.log(b)는 function b() {}, 두번째와 세번째는 bbb를 나타낸다.
 
 - Example 2-6
-: 
+: 함수 선언의 Hoisting 2.
+  선언 부분이 위에서 처리됨. Example 2-5와 결과는 같다.
 
+- Example 2-7
+: 
 
 
 
