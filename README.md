@@ -60,9 +60,9 @@
 
 - Example 1-19
 : undefined가 부여되는 경우를 설명.
-(1) 값을 대입하지 않은 변수에 접근한 경우
-(2) 존재하지 않는 프로퍼티에 접근한 경우
-(3) 반환 값이 없는 경우
+: (1) 값을 대입하지 않은 변수에 접근한 경우
+: (2) 존재하지 않는 프로퍼티에 접근한 경우
+: (3) 반환 값이 없는 경우
 
 - Example 1-20
 : array data를 사용했을때 undefined가 나타나는 경우를 설명. arr3에서 나온 결과 [undefined]는 error의 undefined가 아니라 data 이다.
@@ -71,10 +71,10 @@
 
 - Example 1-21
 : 정의된 arr1 arr2 array가 forEach, map, filter, reduce 함수를 사용했을 때의 결과를 나타낸다.
-(1) forEach : Array에 있는 모든 element에 대해 for loop를 진행함 (v:array[i], i:index)
-(2) map : 새로운 array element 생성 (new_array[i] <- v + i)
-(3) filter : 조건에 맞지 않는 element 제거, 새로운 array 생성
-(4) reduce : transform (p <- p + array[i] + i)
+: (1) forEach : Array에 있는 모든 element에 대해 for loop를 진행함 (v:array[i], i:index)
+: (2) map : 새로운 array element 생성 (new_array[i] <- v + i)
+: (3) filter : 조건에 맞지 않는 element 제거, 새로운 array 생성
+: (4) reduce : transform (p <- p + array[i] + i)
 
 - Example 1-22
 : undefined와 null을 비교함. null의 type은 object이기 때문에 사용에 주의해야 함.
