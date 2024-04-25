@@ -44,7 +44,8 @@
 - Example 1-14
 : 중첩된 객체에 대한 얕은 복사. user2가 user1의 정보를 복사하고 있다.
 
-
+- Example 1-15
+: Example 1-14에서 user.urls 프로퍼티를 불변 객체로 만듦. copy0bject를 통해 urls까지 따로 복사하여 불변 객체를 만들고 있다.
 
 
 
