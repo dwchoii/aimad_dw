@@ -92,6 +92,14 @@
 : 실행 컨텍스트와 콜 스택. 
   global E.context, outer E.context, inner E.context 순으로 stack에 쌓여 inner 부터 global까지 하나씩 out되는 과정이다.
 
+-Example 2-2
+: 매개변수와 변수에 대한 Hoisting.
+  global, a 순으로 stack에서 쌓이고 a, global 순으로 처리된다.
+  function a () {} ; function에 대한 declaration
+
+-Example 2-3
+:
+
 
 
 
