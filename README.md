@@ -88,21 +88,25 @@
 
 
 # Chapter 2
--Example 2-1
+- Example 2-1
 : 실행 컨텍스트와 콜 스택. 
   global E.context, outer E.context, inner E.context 순으로 stack에 쌓여 inner 부터 global까지 하나씩 out되는 과정이다.
 
--Example 2-2
+- Example 2-2
 : 매개변수와 변수에 대한 Hoisting.
   global, a 순으로 stack에서 쌓이고 a, global 순으로 처리된다.
   function a () {} ; function에 대한 declaration
 
--Example 2-3
+- Example 2-3
 : 매개변수와 변수에 대한 Hoisting 2.
   매개변수가 변수의 선언 및 할당과 같다고 여겨져 함수 안에서 매개변수가 선언되었다. 
 
-  
+- Example 2-4
+: 매개변수와 변수에 대한 Hoisting 3.
+  var x; 3줄이 순서대로 수집 대상 1,2,3의 변수 선언 부분을 뜻한다. 
 
+- Example 2-5
+:
 
 
 
