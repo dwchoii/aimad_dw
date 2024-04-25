@@ -64,17 +64,17 @@
 
 - Example 1-20
 : array data를 사용했을때 undefined가 나타나는 경우를 설명. arr3에서 나온 결과 [undefined]는 error의 undefined가 아니라 data 이다. 배열에 들어간 data가 없을 경우 empty로 나타남.
+(비어있음을 나타내고 싶을 때는 undefined가 아닌 null을 사용해야 한다.)
 
 - Example 1-21
-:
+: 정의된 arr1 arr2 array가 forEach, map, filter, reduce 함수를 사용했을 때의 결과를 나타낸다.
+1. forEach : Array에 있는 모든 element에 대해 for loop를 진행함 (v:array[i], i:index)
+2. map : 새로운 array element 생성 (new_array[i] <- v + i)
+3. filter : 조건에 맞지 않는 element 제거, 새로운 array 생성
+4. reduce : transform (p <- p + array[i] + i)
 
-
-
-
-
-
-
-
+- Example 1-22
+: 
 
 
 
