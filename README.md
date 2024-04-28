@@ -277,15 +277,12 @@
   기존의 call/apply 보다 코드를 추적하기에 더 수월해진다.
 
 - Example 3-27
+: 내부함수에 this 전달 - call vs bind
+  example 3-10에서 this를 우회하는 방법을 언급했는데, call/apply/bind 메서드를 활용하여 처리할 수도 있다.
+  call과 bind를 활용하는 방법이 example에 나와있다.
+
+- Example 3-28
 : 
-
-
-
-
-
-
-
-
 
 
 
