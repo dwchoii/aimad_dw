@@ -238,8 +238,13 @@
   querySelectorAll, getElementsByClassName 등의 Node 선택자로 선택한 결과인 NodeList도 마찬가지이다.
 
 - Example 3-19
-: 
+: call/apply 메서드의 활용 1-3) 문자열에 배열 메서드 적용 예시.
+  유사배열객체에는 call/apply 메서드를 이용해 모든 배열 메서드를 적용할 수 있고, 배열처럼 index와 length를 가진 문자열도 적용할 수 있다.
+  단, 문자열의 경우 length 프로퍼티가 Read only 이므로 원본 문자열에 변경을 가하는 메서드에는 오류가 발생하며,
+  concat 같은 대상이 반드시 배열이어야 하는 경우에는 에러가 나지 않지만 올바른 결과를 얻을 수 없다.
 
+- Example 3-20
+: 
 
 
 
