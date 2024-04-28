@@ -291,8 +291,13 @@
   이 예제는 example 3-27의 내부함수를 화살표 함수로 바꿔 코드를 간결하게 수정하였다.
 
 - Example 3-30
-: 
+: thisArg를 받는 경우 예시 - forEach 메서드.
+  콜백 함수를 인자로 받는 메서드 중 일부는 추가로 this로 지정할 객체(thisArg)를 인자로 지정할 수 있는 경우가 있는데, 이렇게 되면 콜백 함수 내부에서 this 값을 원하는 대로 변경할 수 있다.
+  example에서 add 메서드가 호출되면 forEach 메서드가 실행되고, 콜백 함수 내부의 this는 add 메서드의 this가 전달된 상태입니다.
+  세 개의 인자(60,85,95)는 forEach 메서드에 따라 report.sum, report.count, report.average 값을 변화시킨다.
 
+- Example 3-31
+: 
 
 
 
