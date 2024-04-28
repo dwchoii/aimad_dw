@@ -297,18 +297,9 @@
   세 개의 인자(60,85,95)는 forEach 메서드에 따라 report.sum, report.count, report.average 값을 변화시킨다.
 
 - Example 3-31
-: 
-
-
-
-
-
-
-
-
-
-
-
+: 콜백 함수와 함께 thisArg를 인자로 받는 메서드.
+  example 3-30에서 forEach가 활용되었던 바와 같이 thisArg를 인자로 받는 다양한 메서드가 소개되어있다.
+  forEach, map, filter, some, every, find, findIndex, flatMap, from 등이 있다.
 
 
 
