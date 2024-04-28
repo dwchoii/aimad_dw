@@ -257,9 +257,11 @@
   여러 개의 인수를 받는 메서드에게 하나의 배열로 인수들을 전달하고 싶을 때 apply 메서드를 사용하면 좋다.
   
 - Example 3-23
-: call/apply 메서드의 활용 3-
-
-
+: call/apply 메서드의 활용 3-2) 여러 인수를 받는 메서드(Math.max/Math.min)에 apply를 적용.
+  example 3-22의 경우 코드가 불필요하게 길지만, Math.max/Math.min를 사용함으로써 훨씬 간단하게 만들었다.
+  
+- Example 3-24
+: 
 
 
 
