@@ -282,6 +282,10 @@
   call과 bind를 활용하는 방법이 example에 나와있다.
 
 - Example 3-28
+: bind 메서드 - 내부함수에 this 전달.
+  또한 콜백 함수 내에서의 this에 관여하는 함수(or 메서드)에 대해서도 bind 메서드를 이용하여 this 값을 의도할 수 있다.
+
+- Example 3-29
 : 
 
 
