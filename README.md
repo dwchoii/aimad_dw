@@ -169,7 +169,6 @@
 : 전역변수와 전역객체.
   자바스크립트의 모든 변수는 실은 특정 객체의 프로퍼티로서 동작하기 때문에, 전역변수 선언 시 이를 전역객체의 property로도 할당한다.
 
-
 - Example 3-4
 : 전역변수와 전역객체 2.
   Example 3-3 내용을 덧붙여서, 전역 공간에서는 var로 변수를 선언하는 대신 window의 프로퍼티에 직접 할당하더라도, 결과적으로 var로 선언한 거과 똑같이 동작하는 것을 확인할 수 있다.
@@ -234,10 +233,12 @@
   객체에는 배열 메서드를 직접 적용할 수 없지만, slice 메서드를 통해 복사본을 배열로 반환한다.
 
 - Example 3-18
+: call/apply 메서드의 활용 1-2) arguments, NodeList에 배열 메서드를 적용.
+  함수 내부에서 접근할 수 있는 arguments 객체도 유사배열객체이므로 example 3-17 방법으로 활용할 수 있다.
+  querySelectorAll, getElementsByClassName 등의 Node 선택자로 선택한 결과인 NodeList도 마찬가지이다.
+
+- Example 3-19
 : 
-
-
-
 
 
 
