@@ -261,12 +261,19 @@
   example 3-22의 경우 코드가 불필요하게 길지만, Math.max/Math.min를 사용함으로써 훨씬 간단하게 만들었다.
   
 - Example 3-24
-: call/apply 메서드의 활용 3-3) ES6의 펼치기 연산자 활용
+: call/apply 메서드의 활용 3-3) ES6의 펼치기 연산자 활용.
   call/apply 메서드는 this를 예측하기 어렵게 만들어 코드 해석을 방해하는데, 펼치기 연산자를 이용해 이를 완화한다.
 
 - Example 3-25
-: 
+: bind 메서드 - this 지정과 부분 적용 함수 구현.
+  bind 메서드는 call과 비슷하지만 즉시 호출하지는 않고 넘겨 받은 this 및 인수들을 바탕으로 새로운 함수를 반환하기만 하는 메서드이다.
+  example에서 bindFunc1 엔 this를 {x: 1}로 지정한 새로운 함수가 담긴다.
+  bindFunc1(5,6,7,8)로 인해 최종 bindFunc1의 값은 {x: 1} 5 6 7 8 이 된다.
+  bindFunc2엔 this를 {x: 1}로 지정하고 두개의 인수를 각각 4,5로 지정한 새로운 함수를 담는다.
+  마지막 줄의 bindFunc2(8,9)로 인해 최종 bindFunc2의 값은 {x: 1} 4 5 8 9 가 된다.
 
+- Example 3-26
+: 
 
 
 
