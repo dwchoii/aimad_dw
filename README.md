@@ -273,9 +273,11 @@
   마지막 줄의 bindFunc2(8,9)로 인해 최종 bindFunc2의 값은 {x: 1} 4 5 8 9 가 된다.
 
 - Example 3-26
+: bind 메서드 - name 프로퍼티.
+  기존의 call/apply 보다 코드를 추적하기에 더 수월해진다.
+
+- Example 3-27
 : 
-
-
 
 
 
