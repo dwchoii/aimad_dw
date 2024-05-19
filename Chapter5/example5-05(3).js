@@ -8,7 +8,7 @@
     console.log(++count, 'times clicked');
     if (count >= 10) {
       button.removeEventListener('click', clickHandler);
-      clickHandler = null; // clickHandler 식별자의 함수 참조를 끊음
+      clickHandler = null;
     }
   };
   
