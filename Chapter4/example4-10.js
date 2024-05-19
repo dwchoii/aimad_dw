@@ -1,12 +1,12 @@
 var obj1 = {
-    name: 'obj1',
-    func: function () {
-      var self = this;
-      return function () {
-        console.log(self.name);
-      };
-    }
-  };
+  name: 'obj1',
+  func: function () {
+    var self = this;
+    return function () {
+      console.log(self.name);
+    };
+  }
+};
 
   
 var obj2 = {
