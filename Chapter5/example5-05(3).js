@@ -11,6 +11,7 @@
       clickHandler = null; // clickHandler 식별자의 함수 참조를 끊음
     }
   };
+  
   button.addEventListener('click', clickHandler);
   document.body.appendChild(button);
 })();
