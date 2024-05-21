@@ -390,7 +390,11 @@
 
 - Example 4-16
 : 비동기 작업의 동기적 표현3 - Promise
+  ES6의 Generator를 이용하여 반환되는 Iterator를 이용하여 비동기 작업이 완료되는 시점마다 함수 내부의 소스가 위에서 아래로 순차적으로 진행되도록 한다.
 
+- Example 4-17
+: 비동기 작업의 동기적 표현4 - Promise + Async/await
+  
 
 
 
