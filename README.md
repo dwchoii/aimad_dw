@@ -359,9 +359,12 @@
   간결하지만 작성한 함수를 재활용할 수 없다는 단점이 있다.
 
 - Example 4-10
+: Example 4-8의 func 함수 재활용
+  callback2에는 obj2의 func를 실행한 결과를 담아 이를 콜백으로 사용했다.
+  callback3에는 obj1의 func를 실행하면서 this를 obj3가 되도록 지정해 이를 콜백으로 사용했다.
+
+- Example 4-11
 :
-
-
 
 
 
