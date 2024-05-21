@@ -405,7 +405,33 @@
 
 # Chapter 5
 - Example 5-1
-:
+: 외부 함수의 변수를 참조하는 내부 함수1
+  outer 함수에서 변수 a를 선언하고, inner 함수에서 a의 값을 1씩 증가시키고 출력한다.
+  inner 함수엔 a를 선언하지 않았기 때문에 environmentRecord에서 값을 찾지 못하므로 LexicalEnvironment에 접근하여 다시 a를 찾는다.
+
+- Example 5-2
+: 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
