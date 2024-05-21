@@ -314,7 +314,14 @@
   setInterval를 사용하여 300ms마다 실행되는 함수를 만들었다.
   timer 변수에 setInterval를 실행한 결과를 할당했는데, 이는 반복 실행되는 중간에 종료할 수 있게 하기 위함이다.
 
+- Example 4-2
+: setInterval를 사용한 콜백 함수 예제2
+  Example 4-1과의 차이점은 콜백 함수의 제어권을 누가 갖고 있는지이다.
+  Example 4-1에서 제어권은 사용자가, Example 4-2에서는 setInterval이 갖고있다.
+  따라서 Example 4-2에서 setInterval이 스스로의 판단에 적절한 0.3초 후 시점마다 익명 함수를 실행한다.
 
+
+  
 
 
 
