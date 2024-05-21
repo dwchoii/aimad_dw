@@ -320,8 +320,12 @@
   Example 4-1에서 제어권은 사용자가, Example 4-2에서는 setInterval이 갖고있다.
   따라서 Example 4-2에서 setInterval이 스스로의 판단에 적절한 0.3초 후 시점마다 익명 함수를 실행한다.
 
+- Example 4-3
+: Array.prototype.map을 사용한 콜백 함수 예제
+  map method가 첫번째 인자로 callback 함수를 받아 배열(newARR)의 요소를 하나씩 꺼내어 콜백 함수를 반복 호출하고, 실행 결과를 모아 새로운 배열을 만든다.
 
-  
+- Example 4-4
+: 
 
 
 
