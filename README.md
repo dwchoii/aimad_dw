@@ -434,9 +434,11 @@
 
 - Example 5-7
 : 콜백 함수와 클로저2
+  Example 5-6에서 콜백 함수를 외부로 꺼내어 공통 함수로 쓰고자 alertFruit 변수에 담았다.
+  콜백 함수의 인자에 대한 제어권을 addEventListener가 가진 상태이며, addEventListener는 콜백 함수를 호출할 때 첫 번째 인자에 이벤트 객체를 주입하기 때문이다.
 
-
-
+- Example 5-8
+: 콜백 함수와 클로저3
 
 
 
