@@ -331,6 +331,12 @@
   map method를 호출해서 원하는 배열을 얻으려면 map method에 정의된 규칙에 따라 함수를 작성해야한다.
 
 - Example 4-5
+: Array.prototype.map을 사용한 콜백 함수 예제3
+  method 구현의 핵심은 call/apply method에 있다.
+  this는 thisArg 값이 있을 경우엔 그 값을, 없을 경우엔 전역객체를 지정한다.
+  여기서 call/apply method의 첫번째 인자에 콜백 함수 내부에서의 this가 될 대상을 명시적으로 바인딩한다.
+
+- Example 4-6
 : 
 
 
