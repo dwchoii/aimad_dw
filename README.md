@@ -428,9 +428,12 @@
   식별자에 기본형 데이터(null or undefined)를 할당하면 된다.
 
 - Example 5-6
-: 
+: 콜백 함수와 클로저1
+  콜백 함수 내부에서 외부 데이터를 사용하고자 할 때를 나타낸다.
+  A의 실행 종료 여부와 무관하게 클릭 이벤트에 의해 각 컨텍스트의 B가 실행될 때는 B의 outerEnvironmentReference가 A의 LexicalEnvironment를 참조하게 된다.
 
-
+- Example 5-7
+: 콜백 함수와 클로저2
 
 
 
