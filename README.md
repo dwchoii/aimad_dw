@@ -442,9 +442,13 @@
   Example 5-7 를 실행했을 때 이벤트 객체가 인자로 넘어오는 순서가 바뀌는 점과 함수 내부에서의 this가 달라지는 점은 감안해야 합니다.
   이를 해결하기 위해 고차함수를 활용할 수 있다.
 
-- Example 5-8
+- Example 5-9
 : 콜백 함수와 클로저4
-  
+  클릭 이벤트 발생 시 함수의 실행 컨텍스트가 열리면서 alertFruitBuilder의 인자로 넘어온 fruit를 outerEnvironmentReference에 의해 참조할 수 있다.
+  즉 alertFruitBuilder의 실행 결과로 반환된 함수에는 클로저가 존재한다.
+
+- Example 5-10
+:
 
 
 
