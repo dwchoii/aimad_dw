@@ -415,7 +415,14 @@
   그러면 outer 함수의 실행 컨텍스트가 종료될 때 outer2 변수는 outer의 실행 결과인 inner 함수를 참조하게 되고, 이 후 outer2를 호출하면 반환된 함수인 inner가 실행된다.
 
 - Example 5-4
+: return 없이도 클로저가 발생하는 다양한 경우
+  (1) setInterval/setTimeout의 경우 외부객체인 window의 method에 전달할 콜백 함수 내부에서 지역변수를 참조한다.
+  (2) eventListener의 경우 handler 함수 내부에서 지역변수를 참조한다.
+  두 상황 모두 지역변수를 참조하는 내부함수를 외부에 전달했기 때문에 클로저이다.
+
+- Example 5-5
 : 
+
 
 
 
