@@ -337,7 +337,13 @@
   여기서 call/apply method의 첫번째 인자에 콜백 함수 내부에서의 this가 될 대상을 명시적으로 바인딩한다.
 
 - Example 4-6
-: 
+: 콜백 함수 내부에서의 this
+  (1) setTimeout은 내부에서 콜백 함수를 호출할때 call method의 첫 번째 인자에 전역객체를 넘기기 때문에 this가 전역객체를 가르킨다.
+  (2) forEach는 별도의 인자로 this를 받는 경우에 해당하지만 this를 넘겨주지 않았기 때문에 this가 전역객체를 가르킨다.
+  (3) addEventListener는 내부에서 콜백 함수를 호출할 때 call method의 첫 번째 인자에 addEventListener의 method의 this를 그대로 넘기도록 정의되어 있기 때문에 HTML을 가르킨다.
+
+- Example 4-7
+:
 
 
 
