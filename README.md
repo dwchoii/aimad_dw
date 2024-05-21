@@ -348,7 +348,13 @@
   하지만 이는 method가 아닌 가리키는 함수일 뿐이기 때문에 this는 전역객체를 바라보게 된다.
 
 - Example 4-8
-: 
+: 콜백 함수 내부의 this에 다른 값을 바인딩하는 방법 - 전통적
+  obj1.func method 내부에서 self 변수에 this를 담고, 익명 함수를 선언과 동시에 반환했다.
+  obj1.func를 호출하면 앞서 선언한 내부함수가 반환되어 callback 변수에 담긴다.
+  setTimeout 함수가 실행되어 1초 뒤 callback이 실행되면서 obj1을 출력한다.
+
+- Example 4-9
+:
 
 
 
