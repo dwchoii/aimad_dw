@@ -364,8 +364,12 @@
   callback3에는 obj1의 func를 실행하면서 this를 obj3가 되도록 지정해 이를 콜백으로 사용했다.
 
 - Example 4-11
-:
+: 콜백 함수 내부의 this에 다른 값을 바인딩하는 방법 - bind method 활용
+  bind method는 call과 비슷하지만 즉시 호출하지는 않고 넘겨받은 this 및 인수들을 바탕으로 새로운 함수를 반환한다.
+  bind를 활용하여 Example 4-8의 문제점을 보완하고 있다.
 
+- Example 4-12
+: 
 
 
 
