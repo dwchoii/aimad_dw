@@ -325,6 +325,12 @@
   map method가 첫번째 인자로 callback 함수를 받아 배열(newARR)의 요소를 하나씩 꺼내어 콜백 함수를 반복 호출하고, 실행 결과를 모아 새로운 배열을 만든다.
 
 - Example 4-4
+: Array.prototype.map을 사용한 콜백 함수 예제2
+  Example 4-3에서 function() 의 인자 순서를 바꾸어 사용하였다.
+  전혀 다른 결과가 출력되는데, 컴퓨터는 순서에 의해서만 각각을 구분하고 인식하기 때문이다.
+  map method를 호출해서 원하는 배열을 얻으려면 map method에 정의된 규칙에 따라 함수를 작성해야한다.
+
+- Example 4-5
 : 
 
 
