@@ -343,7 +343,12 @@
   (3) addEventListener는 내부에서 콜백 함수를 호출할 때 call method의 첫 번째 인자에 addEventListener의 method의 this를 그대로 넘기도록 정의되어 있기 때문에 HTML을 가르킨다.
 
 - Example 4-7
-:
+: 메서드를 콜백 함수로 전달한 경우
+  method를 forEach 함수의 콜백함수로서 전달했다.
+  하지만 이는 method가 아닌 가리키는 함수일 뿐이기 때문에 this는 전역객체를 바라보게 된다.
+
+- Example 4-8
+: 
 
 
 
