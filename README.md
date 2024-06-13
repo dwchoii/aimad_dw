@@ -502,12 +502,15 @@
 
 # Chapter 6
 - Example 6-1
-: person의 instance를 __proto__ 프로퍼티를 이용하여 getName을 호출할 수 있다.
+: instance의 '__proto__'가 constructor의 프로퍼티를 참조하므로, person의 instance를 '__proto__' 프로퍼티를 이용하여 getName을 호출할 수 있다.
 
 
+- Example 6-2
+: 예제의 8, 9 줄에서 각각 constructor의 디렉토리 구조와 instance의 디렉토리 구조를 출력하고 있다.
+  다만 9 줄에서 constructor의 구조가 출력되고 있는데, 이는 instance와 constructor가 동일한 내용이기 때문이다.
 
-
-
+- Example 6-3
+: 
 
 
 
