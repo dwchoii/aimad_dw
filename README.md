@@ -513,6 +513,9 @@
 : instance의 __proto__가 생성자 함수의 property를 참조하여 __proto__가 생략 가능하기 때문에 인스턴스에서 직접 constructor에 접근할 수 있는 수단이 생긴다.
 
 - Example 6-4
+: 모든 데이터가 d instanceof NewConstructor 명령에 false를 반환하는 것으로 보아, constructor를 변경하여도 참조하는 대상이 변경될 뿐 인스턴스의 원형이나 데이터 타입이 바뀌는 것이 아님을 알 수 있다. 따라서 어떤 인스턴스의 생성자 정보를 알아내기 위해 constructor 프로퍼티에 의존하는 게 항상 안전하지는 않다.
+
+- Example 6-5
 : 
 
 
