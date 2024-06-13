@@ -578,7 +578,10 @@
   이로써 인스턴스를 제외한 프로토타입 체인 경로상에는 더는 구체적인 데이터가 남아있지 않게 된다.
 
 - Example 7-10
-: 
+: 세 번째로 Object.create를 이용하여 Subclass의 prototype의 __proto__가 Superclass의 prototype을 바라보되, Superclass의 인스턴스가 되지는 않게 한다.
+
+- Example 7-11
+:
 
 
 
