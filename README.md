@@ -580,8 +580,8 @@
 - Example 7-10
 : 세 번째로 Object.create를 이용하여 Subclass의 prototype의 __proto__가 Superclass의 prototype을 바라보되, Superclass의 인스턴스가 되지는 않게 한다.
 
-- Example 7-11
-:
+- Example 7-11 & Example 7-12 & Example 7-13 
+: 마지막으로 Subclass.prototype.constructor 가 원래의 Subclass를 바라보도록 한다. 
 
 
 
