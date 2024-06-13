@@ -510,6 +510,9 @@
   다만 9 줄에서 constructor의 구조가 출력되고 있는데, 이는 instance와 constructor가 동일한 내용이기 때문이다.
 
 - Example 6-3
+: instance의 __proto__가 생성자 함수의 property를 참조하여 __proto__가 생략 가능하기 때문에 인스턴스에서 직접 constructor에 접근할 수 있는 수단이 생긴다.
+
+- Example 6-4
 : 
 
 
