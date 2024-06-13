@@ -527,6 +527,10 @@
   어떤 메서트를 호출하면 프로퍼티들을 검색하여 원하는 메서드가 있는 경우 실행, 없으면 __proto__를 검색해서 해당 메서드를 실행한다.
 
 - Example 6-8
+: arr 변수는 배열이므로 arr.__proto__는 array.prototype을 참조하고, array.prototype은 객체이므로 array.prototype.__proto__는 Object.prototype을 참조한다.
+  toString method는 array.prototype과 object.prototype에 존재하는데 어떤 값이 출력되는지를 확인할 수 있다.
+
+- Example 6-9
 : 
 
 
