@@ -500,6 +500,18 @@
 
 
 
+# Chapter 6
+- Example 6-1
+: person의 instance를 __proto__ 프로퍼티를 이용하여 getName을 호출할 수 있다.
+
+
+
+
+
+
+
+
+
 
 
 
